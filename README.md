@@ -1,1 +1,116 @@
-# Online-store-
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL_GAMAR مول | الأناقة بين يديك</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-indigo-600">AL_GAMAR <span class="text-gray-800">مول</span></span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8 space-x-reverse">
+                    <a href="#" class="text-gray-700 hover:text-indigo-600 transition">الرئيسية</a>
+                    <a href="#products" class="text-gray-700 hover:text-indigo-600 transition">المنتجات</a>
+                    <a href="#contact" class="text-gray-700 hover:text-indigo-600 transition">تواصل معنا</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <button class="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition">سلة التسوق</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-indigo-900 text-white py-20 px-4 text-center">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4">اكتشف أحدث صيحات الموضة</h1>
+        <p class="text-lg md:text-xl text-indigo-200 mb-8">عروض حصرية في AL_GAMAR مول على الساعات، الأحذية والملابس</p>
+        <a href="#products" class="bg-white text-indigo-900 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition">تسوق الآن</a>
+    </header>
+
+    <section id="products" class="max-w-7xl mx-auto py-16 px-4">
+        <h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">وصل حديثاً</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition group">
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=80" alt="تيشرت" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300">
+                <div class="p-4">
+                    <span class="text-sm text-indigo-500 font-semibold">ملابس</span>
+                    <h3 class="text-lg font-bold mt-1">تيشرت قطني فاخر</h3>
+                    <p class="text-gray-600 mt-2">250 ج.س</p>
+                    <button class="w-full mt-4 bg-gray-800 text-white py-2 rounded hover:bg-black transition">إضافة للسلة</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition group">
+                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=500&q=80" alt="جينز" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300">
+                <div class="p-4">
+                    <span class="text-sm text-indigo-500 font-semibold">بناطلين</span>
+                    <h3 class="text-lg font-bold mt-1">جينز كلاسيكي أزرق</h3>
+                    <p class="text-gray-600 mt-2">40000 ج.س</p>
+                    <button class="w-full mt-4 bg-gray-800 text-white py-2 rounded hover:bg-black transition">إضافة للسلة</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition group">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80" alt="ساعة" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300">
+                <div class="p-4">
+                    <span class="text-sm text-indigo-500 font-semibold">ساعات</span>
+                    <h3 class="text-lg font-bold mt-1">ساعة كلاسيكية ذكية</h3>
+                    <p class="text-gray-600 mt-2">1,20000 ج.س</p>
+                    <button class="w-full mt-4 bg-gray-800 text-white py-2 rounded hover:bg-black transition">إضافة للسلة</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition group">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80" alt="حذاء" class="w-full h-64 object-cover group-hover:scale-105 transition duration-300">
+                <div class="p-4">
+                    <span class="text-sm text-indigo-500 font-semibold">أحذية</span>
+                    <h3 class="text-lg font-bold mt-1">حذاء رياضي عصري</h3>
+                    <p class="text-gray-600 mt-2">5000 ج.س</p>
+                    <button class="w-full mt-4 bg-gray-800 text-white py-2 rounded hover:bg-black transition">إضافة للسلة</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-gray-800 pb-10">
+            <div>
+                <h3 class="text-2xl font-bold mb-4 italic text-indigo-400">AL_GAMAR مول</h3>
+                <p class="text-gray-400 leading-relaxed">وجهتك الأولى للأناقة والجودة. نقدم لكم أفضل المنتجات العالمية بأسعار تنافسية.</p>
+            </div>
+            <div>
+                <h4 class="text-xl font-semibold mb-4">روابط سريعة</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:text-indigo-400">سياسة الإرجاع</a></li>
+                    <li><a href="#" class="hover:text-indigo-400">الأسئلة الشائعة</a></li>
+                    <li><a href="#" class="hover:text-indigo-400">تتبع طلبك</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-xl font-semibold mb-4">تفاصيل التواصل</h4>
+                <ul class="space-y-3 text-gray-400">
+                    <li class="flex items-center gap-2">📍 الخرطوم السودان</li>
+                    <li class="flex items-center gap-2">📞 +249 917524245</li>
+                    <li class="flex items-center gap-2">✉️ info@algamar-mall.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center mt-8 text-gray-500 text-sm">
+            &copy; 2026 AL_GAMAR مول. جميع الحقوق محفوظة.
+        </div>
+    </footer>
+
+</body>
+</html>
